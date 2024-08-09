@@ -1,0 +1,77 @@
+# Leaflet Challenge - Earthquake Visualization
+
+## Overview
+
+The United States Geological Survey (USGS) is responsible for providing scientific data about natural hazards, ecosystems, and the environment. This project aims to create an interactive map to visualize earthquake data collected by the USGS. The visualization includes the magnitude and depth of earthquakes, with additional layers to show tectonic plates.
+
+## Features
+
+- **Earthquake Visualization**: Display all recorded earthquakes from the past week with markers sized by magnitude and colored by depth.
+- **Tectonic Plates**: Overlay showing the tectonic plates boundaries.
+- **Multiple Base Maps**: Choose between different base maps including Street, Satellite, Grayscale, and Outdoors.
+- **Layer Controls**: Toggle between earthquake data and tectonic plates.
+
+## Project Structure
+
+leaflet-challenge/
+├── index.html
+├── static/
+│ ├── css/
+│ │ └── style.css
+│ ├── js/
+│ │ └── logic.js
+│ └── images/
+│ ├── 1-Logo.png
+│ ├── 2-BasicMap.png
+│ ├── 3-Data.png
+│ ├── 4-JSON.png
+│ ├── 5-Advanced.png
+│ ├── 6-Time_Keeps_On_Ticking.gif
+│ ├── Cluster.png
+│ └── Heat.png
+
+
+## Usage
+
+### Local Setup
+
+1. **Clone the Repository**:
+
+2. **Serve the Files**:
+    Use a local web server to serve the files. You can use Python's built-in HTTP server:
+    ```bash
+    python -m http.server
+    ```
+
+### Deployment
+
+This project can be deployed using GitHub Pages:
+
+1. **Push changes to GitHub**:
+    ```bash
+    git add .
+    git commit -m "Initial commit with Leaflet earthquake visualization"
+    git push origin main
+    ```
+
+2. **Deploy on GitHub Pages**:
+   - Go to your repository settings on GitHub.
+   - Scroll down to the "GitHub Pages" section.
+   - Select the `main` branch as the source and save.
+
+## Data Sources
+
+- **Earthquake Data**: [USGS Earthquake Data GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
+- **Tectonic Plates Data**: [GitHub - Tectonic Plates](https://github.com/fraxen/tectonicplates)
+
+## Acknowledgments
+
+- **Leaflet**: An open-source JavaScript library for mobile-friendly interactive maps.
+- **D3.js**: A JavaScript library for producing dynamic, interactive data visualizations in web browsers.
+- **USGS**: United States Geological Survey for providing the earthquake data.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
